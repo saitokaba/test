@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+}
+
+
+body{
+    background:url(stripes-light.png);
+    font-family: "Rounded Mplus 1c";
+    }
+
+.container{
+    width:960px;
+    background-color:rgb(243, 244, 247);
+    margin:auto;
+}
+
+.flex{
+    display:flex;
+    justify-content: space-between;
+    padding-top:20px;
+}
+
+ul.flex{
+    padding-top:5px;
+}
+  header nav li {
+    background: #95b2aa;
+    width: 25%;
+    box-sizing: border-box;
+    border-right: 1px dotted #fff;
+    text-align: center;
+  }
+
+  header nav li a{
+    display:block;
+    padding:10px;
+    transition: all 0.5s ease;
+
+  }
+  
+  header nav li a:hover {
+    background: #f4f1d0;
+    color: #333;
+  }
+  
+  header nav li a{ 
+    color:#fff;
+  }
+ 
+.main.flex{
+    padding:0;
+  }
+
+  section{
+    background-color:#faf9ed;
+    margin:10px 0;
+    padding:10px;
+    width: 690px;
+    box-sizing: border-box;
+  }
+  
+  section p{
+    border-bottom: 1px dotted #9f9f9f;
+  }
+  aside{
+    background-color:#faf9ed;
+    margin:10px 0;
+    padding:10px;
+    width: 250px;
+    box-sizing: border-box;
+  }
+  aside nav a {
+    border-bottom: 1px dotted #fff;
+    display: block;
+  }
+  
+  aside p {
+    margin-top: 10px;
+  }
+  
+  aside p a img {
+    width:230px;
+  }
+  
+  aside p a:hover img{
+    border-radius: 20px;
+    opacity: .7
+  }
+  
+  aside img{
+    width:230px;
+  }
+    
+  footer{
+    margin-top:10px;    
+    background-color:#95b2aa;
+    color:#fff;
+    text-align: center;
+  }
+  .pc {
+    display: block;
+  }
+  .sp {
+    display: none;
+  }
+
+  @media (max-width:900px) {
+  
+    /* body{
+     background-size:contain;
+    } */
+
+       
+   .container{
+     width:720px;
+    }
+
+    article img{
+      width:100%;
+    }
+    
+ }
+  @media (max-width:400px) {
+
+    .container{
+      width:370px;
+    }
+
+    .flex{
+      flex-wrap:wrap;
+    }
+
+    aside {
+      margin:auto;
+      text-align: center;
+    }
+    h2{
+      font-size:18px;
+    }
+
+    section > p,aside > li{
+        font-size:14px;
+    }
+
+
+  }
