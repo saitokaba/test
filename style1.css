@@ -123,7 +123,21 @@ ul.flex{
     }
     
  }
-  @media (max-width:400px) {
+  @media (max-width:400px) {    
+    .pc {
+      display: none;
+    }
+    .sp {
+      display: block;
+    }
+
+        .pc {
+      display: none;
+    }
+    .sp {
+      display: block;
+    }
+
 
     .container{
       width:370px;
