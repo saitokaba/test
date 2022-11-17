@@ -124,7 +124,7 @@ body{
       flex-wrap: wrap;
     }
     .container{
-      width:370px;
+      width:100%;
     }
     aside {
       margin:auto;
@@ -143,6 +143,7 @@ body{
     }
     .sp {
       display: block;
+      margin:right:2%;
     }
 
 
